@@ -21,6 +21,8 @@ on:
         description: 'Test scenario tags'
   repository_dispatch:
     types: [opened, deleted, your-custom-trigger]
+  check_run:
+    types: [rerequested, requested_action]
 
   # Also trigger on page_build, as well as release created events
   page_build:
