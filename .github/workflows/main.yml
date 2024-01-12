@@ -20,7 +20,7 @@ on:
       tags:
         description: 'Test scenario tags'
   repository_dispatch:
-    types: [opened, deleted]
+    types: [opened, deleted, pramod]
 
   # Also trigger on page_build, as well as release created events
   page_build:
